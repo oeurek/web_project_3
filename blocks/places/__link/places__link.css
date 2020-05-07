@@ -1,0 +1,8 @@
+.places__link {
+    grid-area: "website";
+    color: white;
+    transition-duration: 0.5s;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+}
