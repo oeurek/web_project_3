@@ -1,4 +1,9 @@
 # Project 3: From Portland to Portland
+Project name: Olivia'a Portland to Portland
+Project description: A road map from Portland to Portland across the USA
+Describe the functionality: Viewing a blog with photos, briefs, and more.
+Describe the technologies used: We used grids, flex, tables and overlay. This website is responsive!
+Plans for finalizing the project: Plans to make this project to be interactive. 
 
 ### Overview
 * Intro
@@ -18,3 +23,4 @@ This is a project about traveling across the US. We've made it so all the elemen
 The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
 
 Good luck and have fun!
+
