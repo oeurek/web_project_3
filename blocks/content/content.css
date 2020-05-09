@@ -1,8 +1,17 @@
+
 .content {
-    min-width: 100%;
     margin: 0 auto;
-    padding: 0;
     background-color: #2A2C2F;
     font-family: 'Inter', Arial, sans-serif;
-    color: white;
+    
+}
+
+
+@media screen and (max-width: 320px) {
+   		.content {
+	        margin: 0 auto;
+            padding: 0;
+            max-width: 100%;
+
+    }
 }

@@ -5,4 +5,11 @@
     font-size: 18px;
     line-height: 22px;
     text-decoration-line: underline;
+    max-width: 456px;
+    opacity 3;
+}
+
+.place__linke:hover {
+     opacity: 0;
+    transition: opacity .3s ease;  
 }

@@ -9,12 +9,19 @@
     max-width: 720px;
 }
 
-
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    	.lead__title	{
+            justify-content: center;
+            text-align: center;
+            margin: 80px 30%;
+            min-width: 720px;
+    }
+}
 
 @media screen and (max-width: 320px) {
    	.lead__title	 {
         font-size: 100px;
         line-height: 110%%;
-        margin: 50px auto 16px auto;
+        margin: 50px 0 16px 0;
     }
 }

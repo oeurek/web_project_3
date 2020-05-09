@@ -1,40 +1,55 @@
 .places__item {
-    margin: 80px 0;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: -8%;
     max-width: 984px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: repeat(2, 1fr);
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 20% 80%;
     grid-column-gap: 40px;
     grid-row-gap: 24px;
     grid-template-areas:
         "title website"
-        "image paragraph"
-        "image paragraph"
-        "image paragraph";
+        "image text"
+        "image text"
+        "image text"";
+
 }   
 
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     	.places__item {
-                grid-column-gap: 32px;
+            max-width: 928px;
+            grid-column-gap: 32px;
+            margin-left: 12%;
+                
     }
 }
 
 @media screen and (min-width: 425px) and (max-width: 768px) {
    		.places__item {
-            grid-column-gap: 28px;
+        max-width: 720px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 20% 80%;
+        grid-column-gap: 20px;
+            
 
     }
 }
 
 @media screen and (max-width: 320px) {
    		.places__item {
-            grid-gap: 12px;
-            grid-template-rows: repeat(2, 1fr);
+            height: 909px;
+            margin: 0;
             grid-template-columns: 1fr;
+            grid-template-rows: 20% 80%;
+            grid-row-gap: 20px;
             grid-template-areas:
-                    "image"
-                    "paragraph";
+            "title"
+            "image"
+            "text";
+    }
 }   
     }
 }

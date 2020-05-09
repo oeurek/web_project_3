@@ -13,13 +13,27 @@
     transition: opacity .3s ease;  
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    	.footer__link	{
+            margin-right: 17px;
+            max-width: 64px;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+   		.footer__link {
+                margin-left: 18px;
+                max-width: 42px;
+    }
+}
 
 
 @media screen and (max-width: 320px) {
    		.footer__link {
+            max-width: 63px;
             font-size: 45px;
             line-height: 100%;
-            margin-right: 0;
-            text-align: left;
+            margin: 0 16px;
+            padding-bottom: 32px;
     }
 }

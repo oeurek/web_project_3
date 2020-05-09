@@ -21,14 +21,11 @@
 @media screen and (max-width: 786px) {
     .lead {
         max-width: 768px;
-        max-height: 862px; 
-        margin: 50px auto 88px auto;
+        margin-bottom: 88px;
     }
 }
-
-@media screen and (max-width: 485px) {
-     .lead {
-         max-width: 320px;
-         max-height: 406px;
+@media screen and (max-width: 320px) {
+    .lead {
+        max-width: 320px;
     }
 }

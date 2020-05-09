@@ -5,10 +5,12 @@
 /* add background and overlay*/
 
 .cover {
-    max-width: 100%;
-    max-height: 740px;
+    min-width: 1184px;
+    min-height: 740px;
+    margin-left: -8%;
     justify-content: center;
     margin: 92px 90px;
+    grid-area: "cover";
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {

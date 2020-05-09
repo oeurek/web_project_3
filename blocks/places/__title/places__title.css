@@ -8,11 +8,25 @@
     max-width: 440px;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    	.places__title	{
+            max-width: 1024px;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+   		.places__title {
+            max-width: 700px;
+            font-size: 60px;
+    }
+}
+
 @media screen and (max-width: 320px) {
    		.places__title  {
 	         font-size: 80px;
              line-height: 109%;
             max-width:320px;
+            margin: 0 auto 32px 16px;
     }
 }
 

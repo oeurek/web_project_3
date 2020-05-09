@@ -4,28 +4,36 @@
     line-height: 16px;
     color: #FFFFFF; 
     opacity: 3;
-    margin-left: 730px;
+    max-width: 168px;
+    margin-left: 800px;
+    margin-top: 0;
 
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    	.footer__author	{
-            margin-left: 549px;
-    }
-}
-
-@media screen and (min-width: 425px) and (max-width: 768px) {
-   		.footer__author {
-            font-size: 14px;
-            line-height: 16px;
-    }
 }
 
 @media screen and (max-width: 320px) {
    		.footer__author {
             font-size: 35px;
             line-height: 100%;
-            margin-left: 0;
-            text-align: left;
+            display: block;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+   		.footer__author {
+   max-width: 168px;
+            margin-left: 600px;
+            margin-top: 0;
+            margin-right: 0;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    	.footer__author	{
+            max-width: 200px;
+            margin-left: 250px;
+            margin-top: 0;
+            margin-right: 0;
+            
+        
     }
 }
